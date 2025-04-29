@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz des Avions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz des Avions</h1>
+    <div id="score">Score : 0 / 0</div>
+    <div id="quiz-container">
+      <div id="question-container">
+        <div id="question-content">
+          <img id="question-image" src="" alt="Image de l'avion" />
+          <div id="resultat"></div>
+        </div>
+        <div id="options"></div>
+      </div>
+    </div>
+    <div id="end-screen" style="display: none;">
+      <h2>Quiz terminé</h2>
+      <div id="final-score"></div>
+      <div id="recap"></div>
+      <button id="btn-rejouer" onclick="rejouer()">Rejouer</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
